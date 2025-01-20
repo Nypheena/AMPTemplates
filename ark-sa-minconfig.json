@@ -73,6 +73,19 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Map Specific Mods List",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
+        "Keywords": "mods,list",
+        "FieldName": "mapmodslist",
+        "InputType": "text",
+        "ParamFieldName": "mapmodslist",
+        "DefaultValue": "",
+        "Placeholder": "900062,893657,",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Enable Steam/PC Mods Only",
         "Category": "ARK SA:stadia_controller",
         "Subcategory": "Server:dns:1",
@@ -111,19 +124,6 @@
         "FieldName": "passivemodslist",
         "InputType": "text",
         "ParamFieldName": "passivemodslist",
-        "DefaultValue": "",
-        "Placeholder": "900062,893657,",
-        "EnumValues": {}
-    },
-    {
-        "DisplayName": "Map Specific Mods List",
-        "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
-        "Keywords": "mods,list",
-        "FieldName": "mapmodslist",
-        "InputType": "text",
-        "ParamFieldName": "mapmodslist",
         "DefaultValue": "",
         "Placeholder": "900062,893657,",
         "EnumValues": {}
