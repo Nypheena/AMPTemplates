@@ -82,7 +82,7 @@
         "InputType": "text",
         "ParamFieldName": "mapmodslist",
         "DefaultValue": "",
-        "Placeholder": "900062,893657,",
+        "Placeholder": ",900062,893657",
         "EnumValues": {}
     },
     {
