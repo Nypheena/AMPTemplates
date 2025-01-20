@@ -43,7 +43,7 @@
         "DefaultValue": "",
         "EnumValues": {
             "False": "",
-            "True": "-mods={{modslist}} "
+            "True": "-mods={{passivemodslist}}{{mapmodslist}}{{modslist}} "
         }
     },
     {
@@ -73,6 +73,47 @@
             "False": "",
             "True": "-pconlymods "
         }
+    },
+    {
+        "DisplayName": "Use Passive Mods",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "This option will disable a mod's functionality, while still loading its data, serving as a temporary measure until a permanent solution is implemented. The -passivemods command line needs to be used in conjunction with -mods starting with the ones disabled by this command. Only the ARK: Winter Wonderland 2023 mod (927090) is documented as supporting this option.",
+        "Keywords": "auto,managed,mods",
+        "FieldName": "passivemods",
+        "InputType": "checkbox",
+        "ParamFieldName": "passivemods",
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-passivemods={{passivemodslist}} "
+        }
+    },
+    {
+        "DisplayName": "Passive Mods List",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "This option will disable a mod's functionality, while still loading its data, serving as a temporary measure until a permanent solution is implemented. The -passivemods command line needs to be used in conjunction with -mods starting with the ones disabled by this command. Only the ARK: Winter Wonderland 2023 mod (927090) is documented as supporting this option.",
+        "Keywords": "mods,list",
+        "FieldName": "passivemodslist",
+        "InputType": "text",
+        "ParamFieldName": "passivemodslist",
+        "DefaultValue": "",
+        "Placeholder": "900062,893657,",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map Specific Mods List",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
+        "Keywords": "mods,list",
+        "FieldName": "mapmodslist",
+        "InputType": "text",
+        "ParamFieldName": "mapmodslist",
+        "DefaultValue": "",
+        "Placeholder": "900062,893657,",
+        "EnumValues": {}
     },
     {
         "DisplayName": "Dino Event Colors",
