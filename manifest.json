@@ -1,9 +1,9 @@
 {
 	"id": "79ebeb7d-e3a1-4d53-879c-2d2d1f99cdbf",
-	"authors": ["CubeCoders Limited", "AMP Community"],
+	"authors": ["Nypheena"],
 	"origin": "https://github.com/Nypheena/AMPTemplates.git",
 	"url": "https://github.com/Nypheena/AMPTemplates",
 	"imagefile": "",
-	"prefix": "",
+	"prefix": "Nypheena",
 	"repotype": "AppTemplates"
 }
