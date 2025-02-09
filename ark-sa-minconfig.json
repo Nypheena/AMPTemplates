@@ -104,7 +104,7 @@
         "DisplayName": "Use Passive Mods",
         "Category": "ARK SA:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "This option will disable a mod's functionality, while still loading its data, serving as a temporary measure until a permanent solution is implemented. The -passivemods command line needs to be used in conjunction with -mods starting with the ones disabled by this command. Only the ARK: Winter Wonderland 2023 mod (927090) is documented as supporting this option.",
+        "Description": "If enabled, this option activates the -passivemods function, allowing specified mods to load their data while disabling their functionality. Don't enable this setting if no mods are specified under Passive Mods List or the server will not start",
         "Keywords": "auto,managed,mods",
         "FieldName": "passivemods",
         "InputType": "checkbox",
