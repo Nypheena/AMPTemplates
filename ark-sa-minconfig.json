@@ -12,10 +12,11 @@
         "EnumValues": {
             "TheIsland_WP": "The Island (default)",
             "ScorchedEarth_WP": "Scorched Earth",
-            "TheCenter_WP": "The Center",
             "Aberration_WP": "Aberration",
             "Extinction_WP": "Extinction",
+            "TheCenter_WP": "The Center",
             "Astraeos_WP": "Astraeos",
+            "BobsMissions_WP": "Club Ark (requires Mod)",
             "{{CustomMap}}": "--Custom--"
         }
     },
