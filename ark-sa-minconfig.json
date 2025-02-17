@@ -45,7 +45,7 @@
         "DefaultValue": "",
         "EnumValues": {
             "False": "",
-            "True": "-mods={{custommapid}}{{modslist}}{{mapmodslist}} "
+            "True": "-mods={{custommapid}}{{modslist}}{{mapmodslist}}{{ActiveEvent}} "
         }
     },
     {
@@ -128,6 +128,25 @@
         "EnumValues": {
             "False": "",
             "True": "-pconlymods "
+        }
+    },
+    {
+        "DisplayName": "Active Event Mod",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the server's active event, if any. Requires: Use Mods",
+        "Keywords": "active,event,activeevent",
+        "FieldName": "ActiveEvent",
+        "InputType": "enum",
+        "ParamFieldName": "ActiveEvent",
+        "DefaultValue": "",
+        "EnumValues": {
+            "": "None",
+            ",927083": "Turkey Trial",
+            ",927090": "Winter Wonderland",
+            ",927084": "Love Ascended",
+            ",927091": "Summer Bash",
+            ",877752": "Fear Ascended"
         }
     },
     {
