@@ -323,7 +323,7 @@
     {
         "DisplayName": "Disable Custom Cosmetics",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Mods:extension:2",
+        "Subcategory": "Server:dns:1",
         "Description": "If set, the Custom Cosmetic system will be disabled (allowing players to use and display special mods that should only be skins and will be downloaded automatically by the connected clients)",
         "Keywords": "disable,custom,cosmetics,mods,skins,DisableCustomCosmetics",
         "FieldName": "DisableCustomCosmetics",
