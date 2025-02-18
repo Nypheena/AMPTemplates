@@ -36,7 +36,7 @@
     {
         "DisplayName": "Use Mods",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "If set, enables automatic mod downloading, updating and loading (on server start). Specify the relevant mods under Mods List. Don't enable this setting if no mods are specified under Mods List or the server will not start",
         "Keywords": "auto,managed,mods",
         "FieldName": "mods",
@@ -51,7 +51,7 @@
     {
         "DisplayName": "Mods List",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
         "Keywords": "mods,list",
         "FieldName": "modslist",
@@ -64,7 +64,7 @@
     {
         "DisplayName": "Use Passive Mods",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "If enabled, this option activates the -passivemods function, allowing specified mods to load their data while disabling their functionality. Don't enable this setting if no mods are specified under Passive Mods List or the server will not start",
         "Keywords": "auto,managed,mods",
         "FieldName": "passivemods",
@@ -79,7 +79,7 @@
     {
         "DisplayName": "Passive Mods List",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods to be loaded in passive mode, disabling their functionality while retaining their data. Requires Use Passive Mods to be enabled. When enabled, at least one mod ID must be specified, or the server will not start.",
         "Keywords": "mods,list",
         "FieldName": "passivemodslist",
@@ -92,7 +92,7 @@
     {
         "DisplayName": "Custom Mod Map ID",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
         "Keywords": "mods,list",
         "FieldName": "custommapid",
@@ -105,7 +105,7 @@
     {
         "DisplayName": "Map Specific Mods List",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
         "Keywords": "mods,list",
         "FieldName": "mapmodslist",
@@ -118,7 +118,7 @@
     {
         "DisplayName": "Enable Steam/PC Mods Only",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "If set, crossplay mods will be disabled on the server",
         "Keywords": "crossplay,pc,steam,mods,pconlymods",
         "FieldName": "pconlymods",
@@ -133,7 +133,7 @@
     {
         "DisplayName": "Active Event Mod",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "Sets the server's active event, if any. Requires: Use Mods",
         "Keywords": "active,event,activeevent",
         "FieldName": "ActiveEvent",
@@ -323,7 +323,7 @@
     {
         "DisplayName": "Disable Custom Cosmetics",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "If set, the Custom Cosmetic system will be disabled (allowing players to use and display special mods that should only be skins and will be downloaded automatically by the connected clients)",
         "Keywords": "disable,custom,cosmetics,mods,skins,DisableCustomCosmetics",
         "FieldName": "DisableCustomCosmetics",
@@ -416,7 +416,7 @@
     {
         "DisplayName": "Allow Cave Flyers",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
+        "Subcategory": "Gameplay:joystick:3",
         "Description": "If set, flyers will always be allowed into caves (flyers are able to go into caves by default on custom maps)",
         "Keywords": "allow,cave,flyers,forceallowcaveflyers",
         "FieldName": "ForceAllowCaveFlyers",
@@ -431,7 +431,7 @@
     {
         "DisplayName": "Disable Wild Creature Spawn",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
+        "Subcategory": "Gameplay:joystick:3",
         "Description": "If set, wild creatures will not be spawned in the server. For an existing server, existing creatures need to be wiped with the admin command \"destroywilddinos\"",
         "Keywords": "no,creatures,spawn,nodinos",
         "FieldName": "nodinos",
@@ -446,7 +446,7 @@
     {
         "DisplayName": "Force Wild Creature Respawn On Start",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
+        "Subcategory": "Gameplay:joystick:3",
         "Description": "If set, all wild creatures that are not currently tamed will be destroyed on server start",
         "Keywords": "force,creature,respawn,forcerespawndinos",
         "FieldName": "ForceRespawnDinos",
@@ -461,7 +461,7 @@
     {
         "DisplayName": "Disable Tek Railgun",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
+        "Subcategory": "Gameplay:joystick:3",
         "Description": "If set, the Tek Railgun will be disabled in PvP mode",
         "Keywords": "disable,tek,railgun,disablerailgunpvp",
         "FieldName": "DisableRailgunPVP",
@@ -476,7 +476,7 @@
     {
         "DisplayName": "Enable Structure Stasis Grid",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
+        "Subcategory": "Gameplay:joystick:3",
         "Description": "If set, enables the structure stasis grid to improve server performance on large bases with lots of players. Structures are loaded based on grids with players. Not recommended for modded servers",
         "Keywords": "structure,stasis,grid,usestructurestasisgrid",
         "FieldName": "UseStructureStasisGrid",
@@ -491,7 +491,7 @@
     {
         "DisplayName": "Cluster Directory Override",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Sets the path to a shared cluster directory for a server cluster. The cluster directory must be accessible to all cluster servers. If the server is in Docker, the directory must be mounted in the container",
         "Keywords": "cluster,directory,override,clusterdiroverride",
         "FieldName": "ClusterDirOverride",
@@ -503,7 +503,7 @@
     {
         "DisplayName": "Cluster ID",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Sets the cluster ID for a server cluster. The cluster ID must be the same on all servers in the cluster",
         "Keywords": "cluster,id,clusterid",
         "FieldName": "clusterID",
@@ -515,7 +515,7 @@
     {
         "DisplayName": "Use Unified Save Data",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Same basic behaviour of official (non-legacy) servers on handling player characters data: character profile file (.arkprofile) is not saved separately from map save (.ark), nor its backup. When necessary (e.g.: a character just transferred or a new character has been created) a temporary character profile file is created and kept until next world-save. Tribe profiles are stored in a different format (.arktributetribe).",
         "Keywords": "unified,save,usestore",
         "FieldName": "usestore",
@@ -530,7 +530,7 @@
     {
         "DisplayName": "Convert to Unified Save Data",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Converts non stored data (default save behaviour of unofficial and legacy) to stored data (default save behaviour of official non-legacy) at next world-save. It will not delete older character profile saves. Requires -usestore.",
         "Keywords": "unified,save,usestore,convert,converttostore",
         "FieldName": "converttostore",
@@ -545,7 +545,7 @@
     {
         "DisplayName": "Backup Transfer Player Data",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Fully mimic official (non-legacy) servers on handling player characters data, adding permanent character profile backup files separately from the world-save. Requires -usestore option.",
         "Keywords": "unified,save,usestore,backup,transfer,backuptransferplayerdata",
         "FieldName": "BackupTransferPlayerDatas",
