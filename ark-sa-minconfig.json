@@ -17,6 +17,7 @@
             "TheCenter_WP": "The Center",
             "BobsMissions_WP": "Club Ark (Requires Mod)",
             "Astraeos_WP": "Astraeos",
+            "Ragnarok_WP": "Ragnarok",
             "{{CustomMap}}": "--Custom--"
         }
     },
@@ -562,7 +563,7 @@
         "DisplayName": "Proton GE Release Version (Linux)",
         "Category": "Updates",
         "Subcategory": "Runtime Configuration:build:3",
-        "Description": "Sets the Proton GE [release version](https://github.com/GloriousEggroll/proton-ge-custom/releases) to install. Blank = latest. Example: GE-Proton9-1",
+        "Description": "Sets the Proton GE [release version](https://github.com/GloriousEggroll/proton-ge-custom/releases) to install. Empty = latest. Example: GE-Proton9-1",
         "Keywords": "proton,release,version",
         "FieldName": "SpecificReleaseVersion",
         "InputType": "text",
