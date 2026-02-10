@@ -240,17 +240,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "MultiHome IP Binding",
-        "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "If required, you can change the binding of the server and RCON by changing the Application IP Binding for this instance. NOTE: The IP must be reachable by AMP, otherwise AMP's console won't work",
-        "Keywords": "ip,binding,address,multihome",
-        "FieldName": "MultiHome",
-        "InputType": "hidden",
-        "ParamFieldName": "MultiHome",
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Disable BattlEye",
         "Category": "ARK SA:stadia_controller",
         "Subcategory": "Server:dns:1",
@@ -389,6 +378,21 @@
             "zh": "中文",
             "zh-Hans-CN": "使用者",
             "zh-TW": "国语"
+        }
+    },
+    {
+        "DisplayName": "Disable Game Analytics",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If set, the server's game analytics reporting will be disabled",
+        "Keywords": "game,analytics,nogameanalytics",
+        "FieldName": "NoGameAnalytics",
+        "InputType": "checkbox",
+        "ParamFieldName": "NoGameAnalytics",
+        "DefaultValue": "-NoGameAnalytics ",
+        "EnumValues": {
+            "False": "",
+            "True": "-NoGameAnalytics "
         }
     },
     {
