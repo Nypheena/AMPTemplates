@@ -15,11 +15,10 @@
             "Aberration_WP": "Aberration",
             "Extinction_WP": "Extinction",
             "LostColony_WP": "Lost Colony",
-            "Ragnarok_WP": "Ragnarok",
-            "Astraeos_WP": "Astraeos",
             "TheCenter_WP": "The Center",
+            "Astraeos_WP": "Astraeos",
+            "Ragnarok_WP": "Ragnarok",
             "Valguero_WP": "Valguero",
-            "BobsMissions_WP": "Club Ark (Requires Mod)",
             "{{CustomMap}}": "--Custom--"
         }
     },
@@ -48,7 +47,7 @@
         "DefaultValue": "",
         "EnumValues": {
             "False": "",
-            "True": "-mods={{custommapid}}{{modslist}}{{mapmodslist}}{{ActiveEvent}} "
+            "True": "-mods={{modslist}}{{ActiveEvent}} "
         }
     },
     {
@@ -93,29 +92,31 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Use Custom Mod Map",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Mods:extension:2",
+        "Description": "If enabled, this option activates the -MapModID function, allowing a custom map mod to be loaded. Requires Custom Mod Map ID to be set",
+        "Keywords": "auto,managed,mods",
+        "FieldName": "MapModID",
+        "InputType": "checkbox",
+        "ParamFieldName": "MapModID",
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-MapModID={{custommapid}} "
+        }
+    },
+    {
         "DisplayName": "Custom Mod Map ID",
         "Category": "ARK SA:stadia_controller",
         "Subcategory": "Mods:extension:2",
-        "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
+        "Description": "Sets the CurseForge Project ID for a custom map mod to be loaded with the -MapModID function. Requires Use Custom Mod Map to be enabled",
         "Keywords": "mods,list",
         "FieldName": "custommapid",
         "InputType": "text",
         "ParamFieldName": "custommapid",
         "DefaultValue": "",
-        "Placeholder": "962796,",
-        "EnumValues": {}
-    },
-    {
-        "DisplayName": "Map Specific Mods List",
-        "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Mods:extension:2",
-        "Description": "Comma-separated and ordered list of [CurseForge Project IDs](https://www.curseforge.com/ark-survival-ascended) for mods (including events) to install and load on server start (map mods will not load unless also named as a \"Custom\" map under Custom Map Name). Requires Use Mods to be enabled",
-        "Keywords": "mods,list",
-        "FieldName": "mapmodslist",
-        "InputType": "text",
-        "ParamFieldName": "mapmodslist",
-        "DefaultValue": "",
-        "Placeholder": ",900062,893657",
+        "Placeholder": "1460513",
         "EnumValues": {}
     },
     {
@@ -156,7 +157,7 @@
     {
         "DisplayName": "Dino Event Colors",
         "Category": "ARK SA:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Mods:extension:2",
         "Description": "If particular event colors are selected, then dinos may spawn with those colors",
         "Keywords": "colors,event",
         "FieldName": "Colors",
