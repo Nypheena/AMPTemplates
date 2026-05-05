@@ -315,20 +315,6 @@
         ]
     },
     {
-        "ConfigFile": "ConanSandbox/Saved/Config/WindowsServer/Game.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
-    },
-    {
-        "ConfigFile": "ConanSandbox/Saved/Config/WindowsServer/Engine.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
-    },
-    {
         "ConfigFile": "ConanSandbox/Saved/Config/LinuxServer/ServerSettings.ini",
         "ConfigType": "ini",
         "ConfigFormat": "{0} = {1}",
@@ -642,19 +628,5 @@
                 }
             }
         ]
-    },
-    {
-        "ConfigFile": "ConanSandbox/Saved/Config/LinuxServer/Game.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
-    },
-    {
-        "ConfigFile": "ConanSandbox/Saved/Config/LinuxServer/Engine.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
     }
 ]
