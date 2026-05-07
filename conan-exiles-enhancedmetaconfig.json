@@ -266,7 +266,8 @@
           "MaxAmbientElderThings": "MaxAmbientElderThings",
           "MaxSiegeElderThings": "MaxSiegeElderThings",
           "ElderThingSiegeBuildingSizeMultiplier": "ElderThingSiegeBuildingSizeMultiplier",
-          "SiegeElderThingMapMarkers": "SiegeElderThingMapMarkers"
+          "SiegeElderThingMapMarkers": "SiegeElderThingMapMarkers",
+          "PoiProtectionEnabled": "PoiProtectionEnabled"
         }
       }
     ]
@@ -538,7 +539,8 @@
           "MaxAmbientElderThings": "MaxAmbientElderThings",
           "MaxSiegeElderThings": "MaxSiegeElderThings",
           "ElderThingSiegeBuildingSizeMultiplier": "ElderThingSiegeBuildingSizeMultiplier",
-          "SiegeElderThingMapMarkers": "SiegeElderThingMapMarkers"
+          "SiegeElderThingMapMarkers": "SiegeElderThingMapMarkers",
+          "PoiProtectionEnabled": "PoiProtectionEnabled"
         }
       }
     ]
