@@ -129,7 +129,8 @@
     "ParamFieldName": "ServerPassword",
     "IncludeInCommandLine": true,
     "SkipIfEmpty": true,
-    "EnumValues": {}
+    "EnumValues": {},
+    "DefaultValue": ""
   },
   {
     "DisplayName": "Admin Password",
@@ -144,7 +145,7 @@
     "IncludeInCommandLine": false,
     "SkipIfEmpty": true,
     "EnumValues": {},
-    "DefaultValue": "LFmnMwWmignDZDKr8TrM"
+    "DefaultValue": ""
   },
   {
     "DisplayName": "RCON Password",
@@ -184,7 +185,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ServerMessageOfTheDay",
     "IncludeInCommandLine": false,
-    "DefaultValue": "Venttuuures",
+    "DefaultValue": "",
     "EnumValues": {}
   },
   {
@@ -198,7 +199,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.EnableWhitelist",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -263,7 +264,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.IsBattlEyeEnabled",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -372,7 +373,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPEnabled",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -389,7 +390,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBlitzServer",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -424,7 +425,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.EnableFatalaties",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -441,7 +442,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.EveryoneCanCheat",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -458,7 +459,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.LogoutCharactersRemainInTheWorld",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -522,7 +523,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.EverybodyCanLootCorpse",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -609,7 +610,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.CrossDesertOnce",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -626,7 +627,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ItemConvertionMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.01",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -792,7 +793,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.EnableSandStorm",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -837,7 +838,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerFoodMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -851,7 +852,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerWaterMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -865,7 +866,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerIdleThirstMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -879,7 +880,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerActiveThirstMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -893,7 +894,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerOfflineThirstMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -907,7 +908,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerIdleHungerMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -921,7 +922,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerActiveHungerMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -935,7 +936,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerOfflineHungerMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -949,7 +950,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerEncumbranceMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -963,7 +964,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerEncumbrancePenaltyMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1005,7 +1006,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerStaminaCostSprintMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1.000000",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1019,7 +1020,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerStaminaCostMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1.000000",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1047,7 +1048,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerCorruptionGainMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1243,7 +1244,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ThrallDamageToNPCsMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "0.5",
     "EnumValues": {}
   },
   {
@@ -1271,7 +1272,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.FriendlyFireDamageMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "0.25",
     "EnumValues": {}
   },
   {
@@ -1285,7 +1286,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.DurabilityMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1299,7 +1300,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ShieldDurabilityMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1313,7 +1314,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StaminaCostMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1355,7 +1356,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StaminaStaticRegenRateMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1369,7 +1370,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StaminaMovingRegenRateMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1523,7 +1524,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerXPRateMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1537,7 +1538,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerXPTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1551,7 +1552,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerXPKillMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1565,7 +1566,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerXPHarvestMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1579,7 +1580,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PlayerXPCraftMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1593,7 +1594,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.HarvestAmountMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1607,7 +1608,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ResourceRespawnSpeedMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1621,7 +1622,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.CraftingCostMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1635,7 +1636,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.CraftingSpeedMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1.000000",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1649,7 +1650,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.FuelBurnTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1663,7 +1664,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ThrallCraftingTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1677,7 +1678,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ThrallConversionMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1691,7 +1692,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AnimalPenCraftingTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "10",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1705,7 +1706,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AllowBuildingAnywhere",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1722,7 +1723,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.NoOwnership",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1739,7 +1740,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ContainersIgnoreOwnership",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1756,7 +1757,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.LandClaimRadiusMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0.5",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1798,7 +1799,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StructureDamageTakenMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1812,7 +1813,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.BuildingDamageMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1826,7 +1827,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.bCanBeDamaged",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1843,7 +1844,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.CanDamagePlayerOwnedStructures",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1874,7 +1875,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StabilityLossMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -1888,7 +1889,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.DisableBuildingAbandonment",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -1933,7 +1934,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.BuildingDecayTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -2119,7 +2120,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.MinionPopulationBaseValue",
     "IncludeInCommandLine": false,
-    "DefaultValue": "55",
+    "DefaultValue": "50",
     "EnumValues": {}
   },
   {
@@ -2285,7 +2286,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ClientCatchUpTime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "10.0",
+    "DefaultValue": "14.0",
     "EnumValues": {}
   },
   {
@@ -2313,7 +2314,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ChatHasGlobal",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2330,7 +2331,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowAfrica",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2347,7 +2348,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowAsia",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2364,7 +2365,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowCentralEurope",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2381,7 +2382,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowEasternEurope",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2398,7 +2399,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowWesternEurope",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2415,7 +2416,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowNorthAmerica",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2432,7 +2433,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowOceania",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2449,7 +2450,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RegionAllowSouthAmerica",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "true",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2616,7 +2617,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeMondayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2630,7 +2631,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeTuesdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2644,7 +2645,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeWednesdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2658,7 +2659,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeThursdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2672,7 +2673,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeFridayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2686,7 +2687,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeSaturdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2700,7 +2701,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeSundayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2714,7 +2715,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeMondayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2728,7 +2729,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeTuesdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2742,7 +2743,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeWednesdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2756,7 +2757,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeThursdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2770,7 +2771,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeFridayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2784,7 +2785,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeSaturdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2798,7 +2799,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPTimeSundayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2812,7 +2813,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.RestrictPVPBuildingDamageTime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "True",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -2829,7 +2830,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWeekdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1700",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2843,7 +2844,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWeekdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2359",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2857,7 +2858,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWeekendStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1000",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -2871,7 +2872,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWeekendEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2359",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3004,7 +3005,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeMondayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3018,7 +3019,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeTuesdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3032,7 +3033,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWednesdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3046,7 +3047,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeThursdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3060,7 +3061,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeFridayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3074,7 +3075,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeSaturdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3088,7 +3089,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeSundayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1800",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3102,7 +3103,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeMondayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3116,7 +3117,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeTuesdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3130,7 +3131,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeWednesdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3144,7 +3145,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeThursdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3158,7 +3159,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeFridayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3172,7 +3173,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeSaturdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3186,7 +3187,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.PVPBuildingDamageTimeSundayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2300",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3214,7 +3215,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.DynamicBuildingDamage",
     "IncludeInCommandLine": false,
-    "DefaultValue": "true",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -3245,7 +3246,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarsDisabled",
     "IncludeInCommandLine": false,
-    "DefaultValue": "False",
+    "DefaultValue": "false",
     "EnumValues": {
       "True": "True",
       "False": "False"
@@ -3262,7 +3263,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarLifetime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "60.0",
+    "DefaultValue": "600.0",
     "EnumValues": {}
   },
   {
@@ -3307,7 +3308,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarSummoningTimeWeekdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1130",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3321,7 +3322,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarSummoningTimeWeekdayEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1400",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3335,7 +3336,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarSummoningTimeWeekendStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0830",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3349,7 +3350,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AvatarSummoningTimeWeekendEnd",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1400",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3398,7 +3399,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.VaultRefreshTime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "105",
+    "DefaultValue": "10",
     "EnumValues": {}
   },
   {
@@ -3412,7 +3413,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.VaultRefreshDeviation",
     "IncludeInCommandLine": false,
-    "DefaultValue": "30",
+    "DefaultValue": "2",
     "EnumValues": {}
   },
   {
@@ -3454,7 +3455,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.SurgeSacrificeRequirementMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3482,7 +3483,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.AltarModuleActiveTimeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3620,7 +3621,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormCooldown",
     "IncludeInCommandLine": false,
-    "DefaultValue": "75",
+    "DefaultValue": "105",
     "EnumValues": {}
   },
   {
@@ -3634,7 +3635,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormAccumulationTime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "15",
+    "DefaultValue": "1",
     "EnumValues": {}
   },
   {
@@ -3648,7 +3649,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormDuration",
     "IncludeInCommandLine": false,
-    "DefaultValue": "30",
+    "DefaultValue": "15",
     "EnumValues": {}
   },
   {
@@ -3662,7 +3663,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormDissipationTime",
     "IncludeInCommandLine": false,
-    "DefaultValue": "2",
+    "DefaultValue": "1",
     "EnumValues": {}
   },
   {
@@ -3676,7 +3677,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormEnduranceDrainMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "0",
     "EnumValues": {}
   },
   {
@@ -3690,7 +3691,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ElderThingSpawnRate",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3704,7 +3705,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormTimeWeekdayStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0001",
+    "DefaultValue": "0000",
     "EnumValues": {}
   },
   {
@@ -3732,7 +3733,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormTimeWeekendStart",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0001",
+    "DefaultValue": "0000",
     "EnumValues": {}
   },
   {
@@ -3839,7 +3840,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormBuildingDamageMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3853,7 +3854,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ElderThingSiegeDamageMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3895,7 +3896,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.SiegeElderThingRespawnRate",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3909,7 +3910,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.StormBuildingDamageRateMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
@@ -3937,7 +3938,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.MaxSiegeElderThings",
     "IncludeInCommandLine": false,
-    "DefaultValue": "200",
+    "DefaultValue": "5",
     "EnumValues": {}
   },
   {
@@ -3951,7 +3952,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "ServerSettings.ElderThingSiegeBuildingSizeMultiplier",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1",
+    "DefaultValue": "1.0",
     "EnumValues": {}
   },
   {
