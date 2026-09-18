@@ -19,7 +19,7 @@
             "Astraeos_WP": "Astraeos",
             "Ragnarok_WP": "Ragnarok",
             "Valguero_WP": "Valguero",
-            "Genesis_WP": "Genesis 1",
+            "Genesis_WP": "Genesis Part 1",
             "{{CustomMap}}": "--Custom--"
         }
     },
@@ -609,22 +609,6 @@
         "EnumValues": {
             "ArkAscendedServer": "Vanilla server (default)",
             "AsaApiLoader": "ServerAPI launcher"
-        }
-    },
-    {
-        "DisplayName": "Download Backup Exclusion Files",
-        "Category": "Backups",
-        "Subcategory": "Storage Limits:storage",
-        "Description": "If enabled, default backup exclusion configuration files are downloaded when the server is updated, to save space on AMP backups. If disabled, manually delete any .backupExclude files in the server base directory and in the ShooterGame directory to prevent backup exclusions",
-        "Keywords": "backup,exclude,exclusion,file",
-        "FieldName": "backupExclude",
-        "InputType": "checkbox",
-        "ParamFieldName": "backupExclude",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "true",
-        "EnumValues": {
-            "False": "false",
-            "True": "true"
         }
     }
 ]
