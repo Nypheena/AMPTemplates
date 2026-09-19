@@ -48,7 +48,7 @@
         "DefaultValue": "",
         "EnumValues": {
             "False": "",
-            "True": "-mods={{modslist}}{{ActiveEvent}} "
+            "True": "-mods={{custommapid}},{{modslist}}{{ActiveEvent}} "
         }
     },
     {
